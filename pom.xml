@@ -86,6 +86,7 @@
                 <configuration>
                     <tagNameFormat>v${project.version}</tagNameFormat>
                     <autoVersionSubmodules>true</autoVersionSubmodules>
+                    <suppressCommitBeforeBranch>false</suppressCommitBeforeBranch>
                 </configuration>
             </plugin>
         </plugins>
